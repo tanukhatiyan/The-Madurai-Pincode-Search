@@ -1,0 +1,16 @@
+system,bucket,num_queries,avg_selectivity,mean_recall,recall_at_10_target_met,p50_latency_ms,p95_latency_ms,mean_latency_ms,mean_candidates,mean_distances,fallback_rate
+Adaptive_Planner,extremely_selective,30,4.089183136987634e-05,1.0,True,0.295,0.547,0.357,2.1,2.1,0.0
+Baseline_PreFilter,extremely_selective,30,4.089183136987634e-05,1.0,True,0.135,0.308,0.172,2.1,2.1,0.0
+Baseline_PostFilter,extremely_selective,30,4.089183136987634e-05,0.5511,False,7.474,9.801,7.654,22327.8,22327.8,0.0
+Adaptive_Planner,highly_selective,30,0.0012728393859734529,1.0,True,0.314,0.576,0.338,65.4,65.4,0.0
+Baseline_PreFilter,highly_selective,30,0.0012728393859734529,1.0,True,0.196,0.464,0.23,65.4,65.4,0.0
+Baseline_PostFilter,highly_selective,30,0.0012728393859734529,0.5767,False,7.659,9.381,7.843,22239.9,22239.9,0.0
+Adaptive_Planner,moderate,30,0.00808165384740207,1.0,True,0.623,1.298,0.721,415.0,415.0,0.0
+Baseline_PreFilter,moderate,30,0.00808165384740207,1.0,True,0.49,0.855,0.552,415.0,415.0,0.0
+Baseline_PostFilter,moderate,30,0.00808165384740207,0.7767,False,7.684,10.136,8.187,22321.4,22321.4,0.0
+Adaptive_Planner,broad,30,0.08822445071885242,1.0,True,0.865,1.889,0.938,4530.8,4530.8,0.0
+Baseline_PreFilter,broad,30,0.08822445071885242,1.0,True,0.664,1.487,0.67,4530.8,4530.8,0.0
+Baseline_PostFilter,broad,30,0.08822445071885242,0.9233,False,9.28,11.557,9.444,22241.6,22241.6,0.0
+Adaptive_Planner,very_broad,30,0.9579982474929414,0.97,True,32.287,39.343,31.874,22198.2,22198.2,0.0
+Baseline_PreFilter,very_broad,30,0.9579982474929414,1.0,True,8.471,10.252,8.243,49198.0,49198.0,0.0
+Baseline_PostFilter,very_broad,30,0.9579982474929414,0.97,True,30.851,40.724,32.194,22198.2,22198.2,0.0
